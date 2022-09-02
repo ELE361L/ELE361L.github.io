@@ -39,6 +39,7 @@ As you complete the labs, you will be able to:
 
 ## Schedule
 You can find rough schedule for the course below. 
+
 | Week             | Activities |
 :-------------------- | :----------- |
 | **Week-1** | Introduction to Communication Systems and SDR Concepts <br /> Discussion of SDR Toolchains and Programming Options <br /> Overview of using Git/GitHub/GitHub Classroom |
