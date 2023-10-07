@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-test-site.com/blog</id>
+    <title>ELE361L Blog</title>
+    <updated>2023-10-07T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <subtitle>ELE361L Blog</subtitle>
+    <icon>https://your-docusaurus-test-site.com/img/tobb_etu_yatay_en.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://your-docusaurus-test-site.com/blog/welcome</id>
+        <link href="https://your-docusaurus-test-site.com/blog/welcome"/>
+        <updated>2023-10-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the ELE361L Communication Systems Laboratory Blog Page!]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the ELE361L Communication Systems Laboratory Blog Page!</p><p>Thank you for your interest in ELE361L blog page. We will be giving information on our research projects here, so stay tuned and visit us regularly.</p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <category label="hello" term="hello"/>
+    </entry>
+</feed>
