@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/blog</id>
     <title>ELE361L Blog</title>
-    <updated>2023-10-08T00:00:00.000Z</updated>
+    <updated>2023-11-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
     <subtitle>ELE361L Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/img/tobb_etu_yatay_en.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Direction Finding with KrakenSDR - Vehicle]]></title>
+        <id>https://your-docusaurus-test-site.com/blog/KrakenSDR2</id>
+        <link href="https://your-docusaurus-test-site.com/blog/KrakenSDR2"/>
+        <updated>2023-11-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We continue publishing our DF results with KrakenSDR. Lastly, we have tested KrakenSDR installed on a vehicle. Our setup includes  5-channel KrakenSDR, a Raspberry Pi 4, and an Android phone. We also utilized KrakenSDR mobile application to get turn-by-turn navigation commands. We looked for a strong transmitter, and finally were able to locate it!]]></summary>
+        <content type="html"><![CDATA[<p>We continue publishing our DF results with KrakenSDR. Lastly, we have tested KrakenSDR installed on a vehicle. Our setup includes  5-channel KrakenSDR, a Raspberry Pi 4, and an Android phone. We also utilized KrakenSDR mobile application to get turn-by-turn navigation commands. We looked for a strong transmitter, and finally were able to locate it! </p><p>In the <a href="https://ele361l.github.io/blog/KrakenSDR1/" target="_blank" rel="noopener noreferrer">previous post</a>, we used KrakenSDR in a fixed-point scenerio. This time we are using it in a vehicle. Locating a target transmitter requires an Android telephone. The app provided by KrakenSDR receives emitter bearings via Wi-Fi and provides us turn-by-turn navigation commands.<br>
+<img loading="lazy" alt="Android App running and showing directions" src="/assets/images/AndroidApp-2b604342c8928ec68a94b709c2bb1ed1.jpg" width="1440" height="1920" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="transmitter-selection">Transmitter Selection<a href="#transmitter-selection" class="hash-link" aria-label="Direct link to Transmitter Selection" title="Direct link to Transmitter Selection">​</a></h2><p>We decided to locate a 2G base station around us. So we scanned GSM bands to choose the exact frequency. We used GNU Radio OOT module gr-gsm to check that signal belongs to a real base station. </p><p><img loading="lazy" alt="gr-gsm" src="/assets/images/gr-gsm-d72ec4f2b644332b108bc0d11b894e19.png" width="1833" height="991" class="img_ev3q"></p><p>We can check packets to see that this is a base station. </p><p><img loading="lazy" alt="GSM packets" src="/assets/images/GSMPackets-682d79c0b2e3d098c218319cffc82d1c.png" width="1833" height="1037" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="using-android-app">Using Android App<a href="#using-android-app" class="hash-link" aria-label="Direct link to Using Android App" title="Direct link to Using Android App">​</a></h2><p>We used calculator for interelement spacing necessary for finding 944.4 MHz transmitter, and mounted our antennas on car's roof in uniform circular array configuration. Android app was able to locate the transmitter. </p><p><img loading="lazy" alt="App showing location" src="/assets/images/AppShowingLocation-939245222b4bce036dbb53b0e16562a4.png" width="488" height="1080" class="img_ev3q"></p><p>We also used HackRF and tuned to the GSM frequency to watch spectrum as we get closer to the transmitter. As we get closer, we get stronger signal as can be in the screenshots below. </p><p><img loading="lazy" alt="Low signal" src="/assets/images/LowSignal-4911bacedcb3df418cec8da1e36dd262.png" width="1834" height="1045" class="img_ev3q"></p><p><img loading="lazy" alt="Mid Signal" src="/assets/images/MidSignal-a1a58b3916185ccc9537ca3b7e2f2191.png" width="1834" height="1045" class="img_ev3q"></p><p><img loading="lazy" alt="High signal" src="/assets/images/HighSignal-e6c67ad3dd8df25deed1cb8890ee9d61.png" width="1834" height="1045" class="img_ev3q">   </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="finally-found">Finally, found!<a href="#finally-found" class="hash-link" aria-label="Direct link to Finally, found!" title="Direct link to Finally, found!">​</a></h2><p>We were able to find the transmitter using KrakenSDR. </p><p><img loading="lazy" alt="Base station" src="/assets/images/BaseStationPhoto-bcbb5470cb6e1988d322fe61997285ed.jpeg" width="1200" height="1600" class="img_ev3q"></p><p>After finding its location on map, at the beginning we were around 20 kilometers away from it in bird's-eye view. </p><p><img loading="lazy" alt="Transmitter on map" src="/assets/images/TransmitterOnMap-db425897e0a6c9d96cc0a9bf9e1e3853.png" width="1044" height="701" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <author>
+            <name>Kağan Aydemir</name>
+            <uri>https://github.com/KaganAydemir</uri>
+        </author>
+        <category label="Direction Finding" term="Direction Finding"/>
+        <category label="DF" term="DF"/>
+        <category label="kerberos" term="kerberos"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Direction Finding with KrakenSDR]]></title>
         <id>https://your-docusaurus-test-site.com/blog/KrakenSDR1</id>
