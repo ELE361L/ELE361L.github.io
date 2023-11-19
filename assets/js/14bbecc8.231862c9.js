@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1113],{1468:e=>{e.exports=JSON.parse('{"label":"KrakenSDR","permalink":"/blog/tags/kraken-sdr","allTagsPath":"/blog/tags","count":2}')}}]);

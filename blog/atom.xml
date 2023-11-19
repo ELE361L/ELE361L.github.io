@@ -2,11 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/blog</id>
     <title>ELE361L Blog</title>
-    <updated>2023-11-06T00:00:00.000Z</updated>
+    <updated>2023-11-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
     <subtitle>ELE361L Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/img/tobb_etu_yatay_en.png</icon>
+    <entry>
+        <title type="html"><![CDATA[LoRa Signal Analysis of RAKWireless Earthquake Sensor Kit]]></title>
+        <id>https://your-docusaurus-test-site.com/blog/RAKRirelessLoRa</id>
+        <link href="https://your-docusaurus-test-site.com/blog/RAKRirelessLoRa"/>
+        <updated>2023-11-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this post we are analysing LoRa signal received from RAKWireless Earthquake Sensor Kit. RAKWireless generously gave us the kit, just after two big earthquakes hit the south east part of Turkey in February 6 this year. We are going to work together and collaborate with RAKWireless for using IoT to be well-prepared for natural disasters so that we can protect the people and the world.]]></summary>
+        <content type="html"><![CDATA[<p>In this post we are analysing LoRa signal received from RAKWireless Earthquake Sensor Kit. RAKWireless generously gave us the kit, just after two big earthquakes hit the south east part of Turkey in February 6 this year. We are going to work together and collaborate with RAKWireless for using IoT to be well-prepared for natural disasters so that we can protect the people and the world. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="rakwireless-wisblock-earthquake-sensor-solution-kit">RAKWireless WisBlock Earthquake Sensor Solution Kit<a href="#rakwireless-wisblock-earthquake-sensor-solution-kit" class="hash-link" aria-label="Direct link to RAKWireless WisBlock Earthquake Sensor Solution Kit" title="Direct link to RAKWireless WisBlock Earthquake Sensor Solution Kit">​</a></h2><p>The <a href="https://store.rakwireless.com/products/wisblock-earthquake-sensor-solution-kit-wisblock-rak10703-k-wisblock-rak10703?variant=42604958875846" target="_blank" rel="noopener noreferrer">WisBlock Earthquake Sensor Kit</a> uses the Omron D7S sensor chip, the world’s smallest high precision seismic sensor. It provides seismic data it has as well an alarm output activated if a seismic intensity equivalent to 5 or higher on the JMA (Japan Meteorological Agency) Seismic Intensity Scale occurs. This gives the option to shut down sensitive machines and equipment in case of devastative eartquake. The D7S sensor detects as well if the horizontal position of the sensor changes, which points towards a collapse of the structure where the sensor was deployed. It can only detect earthquakes (it cannot predict them, I think there is no device in the world yet that detects eartquakes!), measure the peak levels of the seismic intensity and send the peak values over LoRaWAN or LoRa P2P to a gateway.
+<img loading="lazy" alt="TheKit" src="/assets/images/kit-926019b1d597c647f25029c0b83ed424.jpg" width="2048" height="1536" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="lora">LoRa<a href="#lora" class="hash-link" aria-label="Direct link to LoRa" title="Direct link to LoRa">​</a></h2><p>If you are not familiar to <strong>LoRa</strong>, it is a short for simply "Long Range", and it is a wireless communication system popular for IoT. Nowadays we are seeing more and more LoRa enabled massive IoT deployments around from smart meter reading to waste management from tracking inventory to sensor measuring. LoRa's modulation scheme is based on chirp-based spread spectrum that can operate beneath the noise floor. The wireless standard sends data in small bursts with very little power. We are talking about signals over long distance using the amount of signal power used in a wireless garage door opener. So, operating on batteries does not become a problem. Having robustness, low power, and low rate makes it a perfect match technology for connecting the internet of things.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="gr-lora">gr-lora<a href="#gr-lora" class="hash-link" aria-label="Direct link to gr-lora" title="Direct link to gr-lora">​</a></h2><p>We are using GNU Radio out-of-tree module called <strong>gr-lora</strong> to analyse the signal. The gr-lora project aims to provide a collection of GNU Radio blocks for receiving LoRa modulated radio messages using a Software Defined Radio (SDR). We are again utilizing RTL-SDR in our work. We ran one of the example flowgraphs that comes with the OOT module called <code>lora_receive_realtime.grc</code>. We set SF to 7 and capture frequency to 868.5 MHz.
+<img loading="lazy" alt="Realtime" src="/assets/images/gr-lora-cea801181c03315ece55f7c515fdbf73.png" width="1920" height="1021" class="img_ev3q"></p><p>The kit deploys an <strong>nRF52840</strong> microcontroller and uses <a href="https://github.com/ElectronicCats/CayenneLPP" target="_blank" rel="noopener noreferrer">CayenneLPP</a> to encode data packets. We can see the outgoing packets with gr-lora.
+<img loading="lazy" alt="Packets" src="/assets/images/packets-b6a536f0282e6fa1221567b6024b928c.png" width="1090" height="432" class="img_ev3q"> </p><p>LoRa is a promising technology so many companies are adopting this technology to their solutions. We are appreciated that RAKWireless sponsored us on our IoT project. We hope to extend our IoT work leading up to a solution for earthquake preparedness.</p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <author>
+            <name>Kağan Aydemir</name>
+            <uri>https://github.com/KaganAydemir</uri>
+        </author>
+        <category label="LoRa" term="LoRa"/>
+        <category label="SDR" term="SDR"/>
+        <category label="GNURadio" term="GNURadio"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Direction Finding with KrakenSDR - Vehicle]]></title>
         <id>https://your-docusaurus-test-site.com/blog/KrakenSDR2</id>
@@ -25,7 +47,7 @@
         </author>
         <category label="Direction Finding" term="Direction Finding"/>
         <category label="DF" term="DF"/>
-        <category label="kerberos" term="kerberos"/>
+        <category label="KrakenSDR" term="KrakenSDR"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Direction Finding with KrakenSDR]]></title>
@@ -49,7 +71,7 @@
         </author>
         <category label="Direction Finding" term="Direction Finding"/>
         <category label="DF" term="DF"/>
-        <category label="kerberos" term="kerberos"/>
+        <category label="KrakenSDR" term="KrakenSDR"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
