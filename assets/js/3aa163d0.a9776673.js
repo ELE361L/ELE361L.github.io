@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5022],{6865:e=>{e.exports=JSON.parse('{"label":"SatDump","permalink":"/blog/tags/sat-dump","allTagsPath":"/blog/tags","count":1}')}}]);
