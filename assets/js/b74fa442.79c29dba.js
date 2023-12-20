@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[514],{5161:e=>{e.exports=JSON.parse('{"label":"COTS UE","permalink":"/blog/tags/cots-ue","allTagsPath":"/blog/tags","count":1}')}}]);

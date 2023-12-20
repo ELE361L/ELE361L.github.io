@@ -2,11 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/blog</id>
     <title>ELE361L Blog</title>
-    <updated>2023-12-05T00:00:00.000Z</updated>
+    <updated>2023-12-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
     <subtitle>ELE361L Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/img/tobb_etu_yatay_en.png</icon>
+    <entry>
+        <title type="html"><![CDATA[End-to-end 5G Network Creation]]></title>
+        <id>https://your-docusaurus-test-site.com/blog/5GsrsRAN</id>
+        <link href="https://your-docusaurus-test-site.com/blog/5GsrsRAN"/>
+        <updated>2023-12-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this post, we are creating a 5G standalone (SA) network using srsRAN. We will use a COTS UE, Redmi Note 12 Pro 5G and USRPB210 Software Defined Radio (SDR) from NI to attach with the gNB we have created.]]></summary>
+        <content type="html"><![CDATA[<p>In this post, we are creating a 5G standalone (SA) network using <a href="https://srs.io/" target="_blank" rel="noopener noreferrer">srsRAN</a>. We will use a COTS UE, Redmi Note 12 Pro 5G and USRPB210 Software Defined Radio (SDR) from NI to attach with the gNB we have created. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="srsran-5g-stack">srsRAN 5G Stack<a href="#srsran-5g-stack" class="hash-link" aria-label="Direct link to srsRAN 5G Stack" title="Direct link to srsRAN 5G Stack">​</a></h2><p>The srsRAN Project is a complete open-source RAN solution from SRS which is 3GPP and O-RAN compliant. It is entirely developed by SRS with minimal external dependencies. It supports FDD/TDD on all FR1 bands.
+<img loading="lazy" alt="srsRAN Image" src="/assets/images/srsRAN-136722cdf31fc2b9c6aff98fe4f7ee49.png" width="1185" height="539" class="img_ev3q"></p><p>srsRAN can be installed in two ways. One way is to use <strong>binary packets</strong> suited to your distribution. The other that we have also used is to <strong>install it from source</strong>. srsRAN gNB is configured using <strong>YAML configuration files</strong>. It supports <strong>nested configuration</strong> parameters. Configuration can be arbitrarily split across multiple files. Any parameter not explicitly configured uses <strong>default values</strong>. Documentation contains full list of configuration parameters. </p><p>In this work, the core network and gNB will run on the same machine, a powerful Victus (HP) laptop. USRP B210 is directly plugged into USB3 port. So, don't use a USB hub unless it's very high performant. We are not using any external clock in our setup, but it's recommended to use one if available.
+<img loading="lazy" alt="5G setup" src="/assets/images/5Gsetup-80d4674ab7e5066fa4105b136ede35b5.jpg" width="1920" height="1440" class="img_ev3q"> </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="cots-ue-5g-phone-selection">COTS UE (5G Phone) Selection<a href="#cots-ue-5g-phone-selection" class="hash-link" aria-label="Direct link to COTS UE (5G Phone) Selection" title="Direct link to COTS UE (5G Phone) Selection">​</a></h2><p>This is a very critical step. Because many phones advertised as 5G are only NSA. They always prefer to attach to 4G. Don't use a phone bought from operator since those phones will be locked to specific PLMN values. You can check known mobile phones reported as working from srsRAN documentation. You should also add the SIM credentials to the 5GC subscriber list. This is well documented in the docs as well.
+If you want internet access from the phone you should set IP forwarding and masquerade. </p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">echo 1 &gt; /proc/sys/net/ipv4/ip_forward</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">iptables -t nat -A POSTROUTING -o &lt;internet_nic&gt; -j MASQUERADE</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><h2 class="anchor anchorWithStickyNavbar_LWe7" id="running">Running<a href="#running" class="hash-link" aria-label="Direct link to Running" title="Direct link to Running">​</a></h2><p>Now it's time to take the phone out of airplane mode, try to attach to the cell. Every second we see some statistics on the console, like shown below. PDU session is created, UE is assigned an IP, and I can ping the UE from gNB.
+<img loading="lazy" alt="5G console" src="/assets/images/5Gconsole-7153ed77b4b8985a670baf451593ebca.png" width="1371" height="533" class="img_ev3q"> </p><p>The following metrics are provided in the console output:</p><table><thead><tr><th align="center">metric</th><th align="center">Definition</th></tr></thead><tbody><tr><td align="center">pci</td><td align="center">Physical Cell Identifier</td></tr><tr><td align="center">rnti</td><td align="center">Radio Network Temporary Identifier (UE identifier)</td></tr><tr><td align="center">cqi</td><td align="center">Channel Quality Indicator reported by the UE (1-15)</td></tr><tr><td align="center">mcs</td><td align="center">Modulation and coding scheme (0-28)</td></tr><tr><td align="center">brate</td><td align="center">Bitrate (bits/sec)</td></tr><tr><td align="center">ok</td><td align="center">Number of packets successfully sent</td></tr><tr><td align="center">nok</td><td align="center">Number of packets dropped</td></tr><tr><td align="center">(%)</td><td align="center">% of packets dropped</td></tr><tr><td align="center">pusch</td><td align="center">PUSCH SINR (Signal-to-Interference-plus-Noise Ratio)</td></tr><tr><td align="center">bsr</td><td align="center">Buffer Status Report - data waiting to be transmitted as reported by the UE (bytes)</td></tr></tbody></table><p>More to come on enhancing the speed of the connection.</p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <author>
+            <name>Kağan Aydemir</name>
+            <uri>https://github.com/KaganAydemir</uri>
+        </author>
+        <category label="5G" term="5G"/>
+        <category label="srsRAN" term="srsRAN"/>
+        <category label="USRP" term="USRP"/>
+        <category label="COTS UE" term="COTS UE"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NOAA Satellite Image Reception with RTL-SDR]]></title>
         <id>https://your-docusaurus-test-site.com/blog/SatNOAA</id>
