@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>ELE361L Blog</title>
+        <link>https://your-docusaurus-test-site.com/outreach</link>
+        <description>ELE361L Blog</description>
+        <lastBuildDate>Sat, 07 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://your-docusaurus-test-site.com/outreach/welcome</link>
+            <guid>https://your-docusaurus-test-site.com/outreach/welcome</guid>
+            <pubDate>Sat, 07 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the ELE361L Communication Systems Laboratory Outreach Page!]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the ELE361L Communication Systems Laboratory Outreach Page!</p><p>We offer various educational outreach events: School visits, public workshops, ham radio activities! Look at our outreach pages to learn more about what we offer. Feel free to reach out to us at <a href="mailto:ytregitim@gmail.com." target="_blank" rel="noopener noreferrer">ytregitim@gmail.com.</a> We’d love to help out! Also use the email above for any comments and concerns - we would absolutely love to hear from you!</p>]]></content:encoded>
+            <category>hello</category>
+        </item>
+    </channel>
+</rss>

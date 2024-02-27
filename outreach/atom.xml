@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-test-site.com/outreach</id>
+    <title>ELE361L Blog</title>
+    <updated>2023-10-07T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-test-site.com/outreach"/>
+    <subtitle>ELE361L Blog</subtitle>
+    <icon>https://your-docusaurus-test-site.com/img/tobb_etu_yatay_en.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://your-docusaurus-test-site.com/outreach/welcome</id>
+        <link href="https://your-docusaurus-test-site.com/outreach/welcome"/>
+        <updated>2023-10-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the ELE361L Communication Systems Laboratory Outreach Page!]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the ELE361L Communication Systems Laboratory Outreach Page!</p><p>We offer various educational outreach events: School visits, public workshops, ham radio activities! Look at our outreach pages to learn more about what we offer. Feel free to reach out to us at <a href="mailto:ytregitim@gmail.com." target="_blank" rel="noopener noreferrer">ytregitim@gmail.com.</a> We’d love to help out! Also use the email above for any comments and concerns - we would absolutely love to hear from you!</p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <category label="hello" term="hello"/>
+    </entry>
+</feed>
