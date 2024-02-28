@@ -2,22 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/outreach</id>
     <title>ELE361L Blog</title>
-    <updated>2023-10-07T00:00:00.000Z</updated>
+    <updated>2024-02-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/outreach"/>
     <subtitle>ELE361L Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/img/tobb_etu_yatay_en.png</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://your-docusaurus-test-site.com/outreach/welcome</id>
-        <link href="https://your-docusaurus-test-site.com/outreach/welcome"/>
-        <updated>2023-10-07T00:00:00.000Z</updated>
+        <title type="html"><![CDATA[İstanbul Kadıköy Anatolian High School Visit]]></title>
+        <id>https://your-docusaurus-test-site.com/outreach/KAL1</id>
+        <link href="https://your-docusaurus-test-site.com/outreach/KAL1"/>
+        <updated>2024-02-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/kadikoy-1-d0731bf7ff40d3f039a7e526c88bcdbb.jpeg" width="2048" height="1536" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <category label="outreach" term="outreach"/>
+        <category label="school visit" term="school visit"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[İstanbul Başakşehir Living Lab Public Workshop]]></title>
+        <id>https://your-docusaurus-test-site.com/outreach/BLL1</id>
+        <link href="https://your-docusaurus-test-site.com/outreach/BLL1"/>
+        <updated>2024-01-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/BLL-Atölye-LinkedIn-05ec2ec29d1baaea1d88f246f90d75f7.jpeg" width="800" height="800" class="img_ev3q"></p><p><img loading="lazy" src="/assets/images/BLL-basaksehir-1-cfb1247683645369de951852cf04de10.jpeg" width="1600" height="1066" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/BLL-thumbnail_IMG_5839-517f47138133ba9e6f7d700d2560071a.jpg" width="1920" height="1440" class="img_ev3q"></p><p><img loading="lazy" src="/assets/images/BLL-WhatsAppImage-556a0f58c4cbbd6576b89959e99e9f4a.jpeg" width="1600" height="1066" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <category label="outreach" term="outreach"/>
+        <category label="workshop" term="workshop"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ankara Keçiören Science High School Visit]]></title>
+        <id>https://your-docusaurus-test-site.com/outreach/KFL1</id>
+        <link href="https://your-docusaurus-test-site.com/outreach/KFL1"/>
+        <updated>2023-12-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/KeciorenFenLisesi_1_20231211-25fca3d02ffadabec1d85547bb076778.png" width="533" height="415" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/KeciorenFenLisesi_2_20231211-38ee24f8651472836535719f2e1fb657.png" width="569" height="415" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <category label="outreach" term="outreach"/>
+        <category label="school visit" term="school visit"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GNU Radio Conference 2023 Workshop]]></title>
+        <id>https://your-docusaurus-test-site.com/outreach/GRCon1</id>
+        <link href="https://your-docusaurus-test-site.com/outreach/GRCon1"/>
+        <updated>2023-09-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/GNU_Conf_2023_ASU_1-7eb971e7e7f8dd8213381648fe8b6bae.jpg" width="4032" height="3024" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/GNU_Conf_2023_ASU_2-d194f866b887bbdde47a267ddffacd98.jpg" width="11408" height="3712" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <category label="outreach" term="outreach"/>
+        <category label="workshop" term="workshop"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[About Our Outreach Program]]></title>
+        <id>https://your-docusaurus-test-site.com/outreach/outreach</id>
+        <link href="https://your-docusaurus-test-site.com/outreach/outreach"/>
+        <updated>2023-06-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to the ELE361L Communication Systems Laboratory Outreach Page!]]></summary>
         <content type="html"><![CDATA[<p>Welcome to the ELE361L Communication Systems Laboratory Outreach Page!</p><p>We offer various educational outreach events: School visits, public workshops, ham radio activities! Look at our outreach pages to learn more about what we offer. Feel free to reach out to us at <a href="mailto:ytregitim@gmail.com." target="_blank" rel="noopener noreferrer">ytregitim@gmail.com.</a> We’d love to help out! Also use the email above for any comments and concerns - we would absolutely love to hear from you!</p>]]></content>
         <author>
             <name>Murat Sever</name>
             <uri>https://github.com/murat-sever</uri>
         </author>
-        <category label="hello" term="hello"/>
+        <category label="outreach" term="outreach"/>
     </entry>
 </feed>

@@ -4,18 +4,54 @@
         <title>ELE361L Blog</title>
         <link>https://your-docusaurus-test-site.com/outreach</link>
         <description>ELE361L Blog</description>
-        <lastBuildDate>Sat, 07 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://your-docusaurus-test-site.com/outreach/welcome</link>
-            <guid>https://your-docusaurus-test-site.com/outreach/welcome</guid>
-            <pubDate>Sat, 07 Oct 2023 00:00:00 GMT</pubDate>
+            <title><![CDATA[İstanbul Kadıköy Anatolian High School Visit]]></title>
+            <link>https://your-docusaurus-test-site.com/outreach/KAL1</link>
+            <guid>https://your-docusaurus-test-site.com/outreach/KAL1</guid>
+            <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/kadikoy-1-d0731bf7ff40d3f039a7e526c88bcdbb.jpeg" width="2048" height="1536" class="img_ev3q"></p>]]></content:encoded>
+            <category>outreach</category>
+            <category>school visit</category>
+        </item>
+        <item>
+            <title><![CDATA[İstanbul Başakşehir Living Lab Public Workshop]]></title>
+            <link>https://your-docusaurus-test-site.com/outreach/BLL1</link>
+            <guid>https://your-docusaurus-test-site.com/outreach/BLL1</guid>
+            <pubDate>Sun, 28 Jan 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/BLL-Atölye-LinkedIn-05ec2ec29d1baaea1d88f246f90d75f7.jpeg" width="800" height="800" class="img_ev3q"></p><p><img loading="lazy" src="/assets/images/BLL-basaksehir-1-cfb1247683645369de951852cf04de10.jpeg" width="1600" height="1066" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/BLL-thumbnail_IMG_5839-517f47138133ba9e6f7d700d2560071a.jpg" width="1920" height="1440" class="img_ev3q"></p><p><img loading="lazy" src="/assets/images/BLL-WhatsAppImage-556a0f58c4cbbd6576b89959e99e9f4a.jpeg" width="1600" height="1066" class="img_ev3q"></p>]]></content:encoded>
+            <category>outreach</category>
+            <category>workshop</category>
+        </item>
+        <item>
+            <title><![CDATA[Ankara Keçiören Science High School Visit]]></title>
+            <link>https://your-docusaurus-test-site.com/outreach/KFL1</link>
+            <guid>https://your-docusaurus-test-site.com/outreach/KFL1</guid>
+            <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/KeciorenFenLisesi_1_20231211-25fca3d02ffadabec1d85547bb076778.png" width="533" height="415" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/KeciorenFenLisesi_2_20231211-38ee24f8651472836535719f2e1fb657.png" width="569" height="415" class="img_ev3q"></p>]]></content:encoded>
+            <category>outreach</category>
+            <category>school visit</category>
+        </item>
+        <item>
+            <title><![CDATA[GNU Radio Conference 2023 Workshop]]></title>
+            <link>https://your-docusaurus-test-site.com/outreach/GRCon1</link>
+            <guid>https://your-docusaurus-test-site.com/outreach/GRCon1</guid>
+            <pubDate>Tue, 05 Sep 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/GNU_Conf_2023_ASU_1-7eb971e7e7f8dd8213381648fe8b6bae.jpg" width="4032" height="3024" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/GNU_Conf_2023_ASU_2-d194f866b887bbdde47a267ddffacd98.jpg" width="11408" height="3712" class="img_ev3q"></p>]]></content:encoded>
+            <category>outreach</category>
+            <category>workshop</category>
+        </item>
+        <item>
+            <title><![CDATA[About Our Outreach Program]]></title>
+            <link>https://your-docusaurus-test-site.com/outreach/outreach</link>
+            <guid>https://your-docusaurus-test-site.com/outreach/outreach</guid>
+            <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to the ELE361L Communication Systems Laboratory Outreach Page!]]></description>
             <content:encoded><![CDATA[<p>Welcome to the ELE361L Communication Systems Laboratory Outreach Page!</p><p>We offer various educational outreach events: School visits, public workshops, ham radio activities! Look at our outreach pages to learn more about what we offer. Feel free to reach out to us at <a href="mailto:ytregitim@gmail.com." target="_blank" rel="noopener noreferrer">ytregitim@gmail.com.</a> We’d love to help out! Also use the email above for any comments and concerns - we would absolutely love to hear from you!</p>]]></content:encoded>
-            <category>hello</category>
+            <category>outreach</category>
         </item>
     </channel>
 </rss>
