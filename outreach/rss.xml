@@ -4,10 +4,19 @@
         <title>ELE361L Blog</title>
         <link>https://your-docusaurus-test-site.com/outreach</link>
         <description>ELE361L Blog</description>
-        <lastBuildDate>Thu, 08 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Ankara Science High School Visit]]></title>
+            <link>https://your-docusaurus-test-site.com/outreach/AFL1</link>
+            <guid>https://your-docusaurus-test-site.com/outreach/AFL1</guid>
+            <pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/AFL_ScienceMuseum-b6258b7dd70182969a12fe8ee570df3a.jpg" width="4000" height="3000" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/AFL_1-ac3c3e32b5ded920d0fdbee91cebb447.jpeg" width="2048" height="1536" class="img_ev3q"></p><p><img loading="lazy" src="/assets/images/AFL_2-ba940ab74178fe1c13b6bd6fb181d022.jpeg" width="1600" height="1200" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/AFL_3-d9ff79c3cd9f0b5b5b56c2a8e55fb11b.jpeg" width="2048" height="1536" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/AFL_4-91fba3af6fe9837ed01a8c75ab624f3d.jpeg" width="1600" height="1200" class="img_ev3q"></p>]]></content:encoded>
+            <category>outreach</category>
+            <category>school visit</category>
+        </item>
         <item>
             <title><![CDATA[İstanbul Kadıköy Anatolian High School Visit]]></title>
             <link>https://your-docusaurus-test-site.com/outreach/KAL1</link>

@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/outreach</id>
     <title>ELE361L Blog</title>
-    <updated>2024-02-08T00:00:00.000Z</updated>
+    <updated>2024-02-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/outreach"/>
     <subtitle>ELE361L Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/img/tobb_etu_yatay_en.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Ankara Science High School Visit]]></title>
+        <id>https://your-docusaurus-test-site.com/outreach/AFL1</id>
+        <link href="https://your-docusaurus-test-site.com/outreach/AFL1"/>
+        <updated>2024-02-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/AFL_ScienceMuseum-b6258b7dd70182969a12fe8ee570df3a.jpg" width="4000" height="3000" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/AFL_1-ac3c3e32b5ded920d0fdbee91cebb447.jpeg" width="2048" height="1536" class="img_ev3q"></p><p><img loading="lazy" src="/assets/images/AFL_2-ba940ab74178fe1c13b6bd6fb181d022.jpeg" width="1600" height="1200" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/AFL_3-d9ff79c3cd9f0b5b5b56c2a8e55fb11b.jpeg" width="2048" height="1536" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/AFL_4-91fba3af6fe9837ed01a8c75ab624f3d.jpeg" width="1600" height="1200" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <category label="outreach" term="outreach"/>
+        <category label="school visit" term="school visit"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[İstanbul Kadıköy Anatolian High School Visit]]></title>
         <id>https://your-docusaurus-test-site.com/outreach/KAL1</id>
