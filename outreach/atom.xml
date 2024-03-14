@@ -2,11 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/outreach</id>
     <title>ELE361L Blog</title>
-    <updated>2024-02-29T00:00:00.000Z</updated>
+    <updated>2024-03-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/outreach"/>
     <subtitle>ELE361L Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/img/tobb_etu_yatay_en.png</icon>
+    <entry>
+        <title type="html"><![CDATA[İstanbul Atatürk Science High School Visit]]></title>
+        <id>https://your-docusaurus-test-site.com/outreach/IAFL1</id>
+        <link href="https://your-docusaurus-test-site.com/outreach/IAFL1"/>
+        <updated>2024-03-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/IAFL_0-713be9e6803e1bad51011d92e8312ea0.jpg" width="4000" height="3000" class="img_ev3q"></p><p><img loading="lazy" src="/assets/images/IAFL_1-3d6e29058d84d6bb6842c3a08fda6190.jpg" width="4000" height="3000" class="img_ev3q"></p><p><img loading="lazy" src="/assets/images/IAFL_2-424003fa822fea80bd89e8b6e6a9117d.jpg" width="4000" height="3000" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <category label="outreach" term="outreach"/>
+        <category label="school visit" term="school visit"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[İstanbul Kadıköy Anatolian High School Visit]]></title>
+        <id>https://your-docusaurus-test-site.com/outreach/KAL2</id>
+        <link href="https://your-docusaurus-test-site.com/outreach/KAL2"/>
+        <updated>2024-03-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/KAL2_1-23f2d26256afa7c58806b4dab4d26c04.jpg" width="1024" height="768" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/KAL2_2-7ab9aae8c04c7aebc7392dea63311d6c.jpg" width="576" height="768" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/KAL2_3-7d2c42a20033af704cd00658f9e46a8f.jpg" width="576" height="768" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/KAL2_4-68c1ce83fb25a0bd89d2ee9ba2e66ad9.jpg" width="576" height="768" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <category label="outreach" term="outreach"/>
+        <category label="school visit" term="school visit"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ankara Yıldırım Beyazıt University Visit]]></title>
+        <id>https://your-docusaurus-test-site.com/outreach/AYBU1</id>
+        <link href="https://your-docusaurus-test-site.com/outreach/AYBU1"/>
+        <updated>2024-03-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/AYBU_4-496a5c56eb0a57599b67ca2df7ee92d8.jpeg" width="1500" height="2000" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/AYBU_1-0fab251db2d2df4a51d366259e3fc535.jpeg" width="2000" height="1500" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/AYBU_2-4bd4c31c893b46c8ba06a55cf7f50e89.jpeg" width="2000" height="1500" class="img_ev3q"> </p><p><img loading="lazy" src="/assets/images/AYBU_3-a36be1fb05588d579e21c8c0b73bb662.jpeg" width="2000" height="1500" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Murat Sever</name>
+            <uri>https://github.com/murat-sever</uri>
+        </author>
+        <category label="outreach" term="outreach"/>
+        <category label="school visit" term="school visit"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ankara Science High School Visit]]></title>
         <id>https://your-docusaurus-test-site.com/outreach/AFL1</id>
